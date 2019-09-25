@@ -61,17 +61,17 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:nerdtree_tabs_open_on_console_startup = 1
 
 "" Map Ctrl + left arrow and Ctrl + right arrow to switch tabs
-nnoremap <C-Left> :tabprevious<CR>
-nnoremap <C-Right> :tabnext<CR>
+nnoremap <C-Left>   :tabprevious<CR>
+nnoremap <C-Right>  :tabnext<CR>
 
 "" Use the 'wombat' colour scheme for in the lightline plugin
 let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ }
-
+"
 "" Press ,<space> to bring up the terminal
-if has("fish")
+try
     nnoremap ,<space> :terminal fish<CR>
-else
+catch
     nnoremap ,<space> :terminal bash<CR>
-endif
+endtry

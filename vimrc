@@ -72,8 +72,9 @@ let g:lightline = {
 "" Set vim-airline's theme to 'simple'
 let g:airline_theme='simple'
 
-try
+"" Press ,<space> to bring up the terminal
+if has("fish")
     nnoremap ,<space> :TerminalSplit fish<CR>
-catch
+else
     nnoremap ,<space> :TerminalSplit bash<CR>
-endtry
+endif

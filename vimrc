@@ -68,3 +68,12 @@ nnoremap <C-Right> :tabnext<CR>
 let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ }
+
+"" Set vim-airline's theme to 'simple'
+let g:airline_theme='simple'
+
+try
+    nnoremap ,<space> :TerminalSplit fish<CR>
+catch
+    nnoremap ,<space> :TerminalSplit bash<CR>
+endtry

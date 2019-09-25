@@ -71,7 +71,7 @@ let g:lightline = {
 
 "" Press ,<space> to bring up the terminal
 if has("fish")
-    nnoremap ,<space> :TerminalSplit fish<CR>
+    nnoremap ,<space> :terminal fish<CR>
 else
-    nnoremap ,<space> :TerminalSplit bash<CR>
+    nnoremap ,<space> :terminal bash<CR>
 endif

@@ -27,6 +27,7 @@ the config has been extended to add a few more features.
 #. To open a file in a new tab, press ``t`` and to open it in split mode press ``s`` (This is a nerdtree feature, but do read further)
 #. Now, to easily switch between tabs use ``Ctrl ←`` and ``Ctrl →`` (Mission control shortcuts will need to be disabled for this work on macOS)
 #. Terminal can be opened from inside ``vim`` using ``,<space>``. This brings up the fish terminal, if present, or brings up bash
+#. Quit the terminal using ``Ctrl w c`` and then ``:q``
 
 .. image:: screenshot.png
 

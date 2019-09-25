@@ -11,7 +11,7 @@ At some point or the other we have all sworn at our IDEs for being painfully slo
 Installation
 ============
 
-#. Clone the repository and run the install script::
+* Clone the repository and run the install script::
 
      git clone https://github.com/pct960/vim-ide && cd vim-ide
      ./install

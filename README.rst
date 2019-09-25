@@ -1,12 +1,12 @@
-A simple vim configuration to replace your buggy IDE
-====================================================
+Freedom from slow and buggy IDEs
+================================
 
 |license|
 
 .. |license| image:: https://img.shields.io/badge/license-ISC-blue.svg
     :target: https://github.com/pct960/vim_config/blob/master/LICENSE
 
-How to get it working
+At some point or the other we have all sworn at our IDEs for being painfully slow, buggy or both. Here's ``vim`` to the rescue. This is a simple vim config that can somewhat replace your IDE (more features are coming soon). Here's how to get started: 
 
 #. Install `pathogen <https://github.com/tpope/vim-pathogen>`_ plugin manager for vim::
 
@@ -25,7 +25,7 @@ How to get it working
 #. Paste the contents of the vimrc file in this repo to your own ``~/.vimrc`` and you're good to go
 
 Features
-=============
+========
 Apart from the features the vanilla vim configuration provides (line numbers, relative line numbers, smart indent etc.) 
 the config has been extended to add a few more features.
 

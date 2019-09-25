@@ -15,6 +15,8 @@ set ruler
 set undolevels=1000
 set backspace=indent,eol,start
 set number relativenumber
+filetype plugin on
+syntax on
 augroup numbertoggle
   autocmd!
   autocmd BufEnter,FocusGained,InsertLeave * set relativenumber

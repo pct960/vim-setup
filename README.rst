@@ -29,8 +29,8 @@ the config has been extended to add a few more features.
 
 .. image:: screenshot.png
 
-Why isn't autocomplete avaiable?
-================================
+Why isn't autocomplete available?
+=================================
 
 Autocomplete was deliberately not added since adding language servers and a lot of plugins would have severely slowed it down. The objective of this project was to have a fast, simple and clean alternative to a bulky IDE. Adding features that make it slow would be counterproductive. That being said, features that do not compromise the smooth experience of ``vim`` can always be added.
 

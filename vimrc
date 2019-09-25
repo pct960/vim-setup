@@ -16,6 +16,7 @@ set ruler
 set undolevels=1000
 set backspace=indent,eol,start
 set number relativenumber
+set wildmenu
 
 if ! has("gui_running")
     set t_Co=256
@@ -63,7 +64,7 @@ let g:nerdtree_tabs_open_on_console_startup = 1
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
-"" Use the 'wombat' colour scheme for the lightline
+"" Use the 'wombat' colour scheme for in the lightline plugin
 let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ }

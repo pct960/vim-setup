@@ -6,7 +6,7 @@ VIM-IDE: Freedom from slow and buggy IDEs
 .. |license| image:: https://img.shields.io/badge/license-ISC-blue.svg
     :target: https://github.com/pct960/vim_config/blob/master/LICENSE
 
-At some point or the other we have all sworn at our IDEs for being painfully slow, buggy or both. Here's ``vim`` to the rescue. This is a simple and non-intrusive vim config that can replace your IDE to some extent. It is simple because there are not too many bells and whistles. It is non-intrusive because it does not assume any conveniences on your behalf (i.e not a lot of customisations and re-mappings)
+At some point or the other, we have all sworn at our IDEs for being painfully slow, buggy or both. Here's ``vim`` to the rescue. This is a simple and non-intrusive vim config that can replace your IDE to some extent. It is simple because there are not too many bells and whistles. It is non-intrusive because it does not assume any conveniences on your behalf (i.e not a lot of customisations and re-mappings)
 
 Installation
 ============
@@ -18,14 +18,14 @@ Installation
 
 Features
 ========
-Apart from the features the vanilla vim configuration provides (line numbers, relative line numbers, smart indent etc.) 
+Apart from the features the vanilla vim configuration provides (line numbers, relative line numbers, smart indent etc.), 
 the config has been extended to add a few more features.
 
 #. Nerdtree is automatically loaded when vim is opened
 #. Opening a file places the focus on the file instead of on the nerdtree pane
-#. Closing a file, closes both the file and the nerdtree pane (provided no other tabs are open)
+#. Closing a file closes both the file and the nerdtree pane (provided no other tabs are open)
 #. To open a file in a new tab, press ``t`` and to open it in split mode press ``s`` (This is a nerdtree feature, but do read further)
-#. Now, to easily switch between tabs use ``Ctrl ←`` and ``Ctrl →`` (Mission control shortcuts will need to be disabled for this work on MacOS)
+#. Now, to easily switch between tabs use ``Ctrl ←`` and ``Ctrl →`` (Mission control shortcuts will need to be disabled for this work on macOS)
 
 .. image:: screenshot.png
 

@@ -17,6 +17,7 @@ set undolevels=1000
 set backspace=indent,eol,start
 set number relativenumber
 set wildmenu
+set splitbelow
 
 if ! has("gui_running")
     set t_Co=256

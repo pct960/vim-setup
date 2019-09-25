@@ -1,28 +1,19 @@
-Freedom from slow and buggy IDEs
-********************************
+VIM-IDE: Freedom from slow and buggy IDEs
+*****************************************
 
 |license|
 
 .. |license| image:: https://img.shields.io/badge/license-ISC-blue.svg
     :target: https://github.com/pct960/vim_config/blob/master/LICENSE
 
-At some point or the other we have all sworn at our IDEs for being painfully slow, buggy or both. Here's ``vim`` to the rescue. This is a simple vim config that can somewhat replace your IDE (more features are coming soon). Here's how to get started: 
+At some point or the other we have all sworn at our IDEs for being painfully slow, buggy or both. Here's ``vim`` to the rescue. This is a simple and non-intrusive vim config that can somewhat replace your IDE (more features are coming soon).
 
-#. Install `pathogen <https://github.com/tpope/vim-pathogen>`_ plugin manager for vim::
+Installation
+============
 
-     mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-     curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+#. Clone the repository and run the install file::
 
-#. Install `NERDTree <https://github.com/scrooloose/nerdtree>`_::
-
-     git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
-
-#. Now install `vim-nerdtree-tabs <https://github.com/jistr/vim-nerdtree-tabs>`_::
-   
-     cd ~/.vim/bundle
-     git clone https://github.com/jistr/vim-nerdtree-tabs.git
-     
-#. Paste the contents of the vimrc file in this repo to your own ``~/.vimrc`` and you're good to go
+     git clone https://github.com/pct960/vim-ide && ./install
 
 Features
 ========
@@ -37,6 +28,11 @@ the config has been extended to add a few more features.
 
 .. image:: screenshot.png
 
+Contributions
+=============
+Feel free to open a pull request, raise an issue or a feature request.
+
+
 Credits
 =======
-`rraks <https://github.com/rraks/configs>`_ for the vanilla vim configuration
+ `amix <https://github.com/amix/vimrc>`_ and `rraks <https://github.com/rraks/configs>`_

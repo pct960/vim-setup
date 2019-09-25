@@ -69,9 +69,6 @@ let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ }
 
-"" Set vim-airline's theme to 'simple'
-let g:airline_theme='simple'
-
 "" Press ,<space> to bring up the terminal
 if has("fish")
     nnoremap ,<space> :TerminalSplit fish<CR>

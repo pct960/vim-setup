@@ -1,6 +1,11 @@
 A simple vim configuration to replace your buggy IDE
 ====================================================
 
+|license|
+
+.. |license| image:: https://img.shields.io/badge/license-ISC-blue.svg
+    :target: https://github.com/pct960/vim_config/blob/master/LICENSE
+
 How to get it working
 
 #. Install `pathogen <https://github.com/tpope/vim-pathogen>`_ plugin manager for vim::
@@ -28,7 +33,9 @@ the config has been extended to add a few more features.
 #. Opening a file places the focus on the file instead of on the nerdtree pane
 #. Closing a file, closes both the file and the nerdtree pane (provided no other tabs are open)
 #. To open a file in a new tab, press ``t`` and to open it in split mode press ``s`` (This is a nerdtree feature, but do read further)
-#. Now, to easily switch between tabs use ``Ctrl + ←`` and ``Ctrl + →``
+#. Now, to easily switch between tabs use ``Ctrl ←`` and ``Ctrl →``
+
+.. image:: screenshot.png
 
 Credits
 =======

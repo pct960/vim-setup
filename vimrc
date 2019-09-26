@@ -78,3 +78,9 @@ endtry
 
 "" Press Esc to exit and close the terminal
 tnoremap <ESC> <C-w>:q!<CR>
+
+"" Jump to last position when re-opening a file
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
+    \| exe "normal! g'\"" | endif
+endif

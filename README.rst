@@ -26,7 +26,7 @@ the config has been extended to add a few more features.
 #. Closing a file closes both the file and the nerdtree pane (provided no other tabs are open)
 #. To open a file in a new tab, press ``t`` and to open it in split mode press ``s`` (This is a nerdtree feature, but do read further)
 #. Now, to easily switch between tabs use ``Ctrl ←`` and ``Ctrl →`` (Mission control shortcuts will need to be disabled for this work on macOS)
-#. Terminal can be opened from inside ``vim`` using ``,<space>``. This brings up ``fish``, if present, otherwise, brings up ``bash``. Quit the terminal using ``Esc``
+#. Terminal can be opened from inside ``vim`` using ``,<space>``. This brings up ``fish``, if present, otherwise, brings up ``bash``. Terminal can be closed by simply pressing ``Esc``
 
 Screenshots
 ===========

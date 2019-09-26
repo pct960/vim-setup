@@ -28,7 +28,10 @@ the config has been extended to add a few more features.
 #. Now, to easily switch between tabs use ``Ctrl ←`` and ``Ctrl →`` (Mission control shortcuts will need to be disabled for this work on macOS)
 #. Terminal can be opened from inside ``vim`` using ``,<space>``. This brings up ``fish``, if present, or brings up ``bash``. Quit the terminal using ``Esc``
 
-.. image:: screenshot.png
+Screenshots
+===========
+.. image:: screenshot1.png
+.. image:: screenshot2.png
 
 Why isn't autocomplete available?
 =================================

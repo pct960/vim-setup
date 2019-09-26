@@ -18,17 +18,16 @@ set backspace=indent,eol,start
 set number relativenumber
 set wildmenu
 set splitbelow
+set cursorline
 
-if ! has("gui_running")
-    set t_Co=256
-endif
+"" Set colour scheme to solarized8_flat
 set background=dark
-colors peaksea
 set encoding=utf8
+colorscheme solarized8_flat
 
 "" Enable syntax highlighting
 filetype plugin on
-syntax on
+syntax enable
 
 "" Automatically enable and disable relative line numbers
 augroup numbertoggle
@@ -72,7 +71,10 @@ let g:lightline = {
 "
 "" Press ,<space> to bring up the terminal
 try
-    nnoremap ,<space> :terminal fish<CR>
+    nnoremap <silent> ,<space> :terminal fish<CR>
 catch
-    nnoremap ,<space> :terminal bash<CR>
+    nnoremap <silent> ,<space> :terminal bash<CR>
 endtry
+
+"" Press Esc to exit and close the terminal
+tnoremap <ESC> <C-w>:q!<CR>

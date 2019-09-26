@@ -1,4 +1,4 @@
-VIM-IDE: Freedom from slow and buggy IDEs
+Vim-IDE: Freedom from slow and buggy IDEs
 *****************************************
 
 |license|
@@ -33,7 +33,7 @@ the config has been extended to add a few more features.
 Why isn't autocomplete available?
 =================================
 
-Autocomplete was deliberately not added since adding language servers and a lot of plugins would have severely slowed it down. The objective of this project was to have a fast, simple and clean alternative to a bulky IDE. Adding features that make it slow would be counterproductive. That being said, features that do not compromise the smooth experience of ``vim`` can always be added.
+Autocomplete was deliberately not added since adding language servers and a lot of plugins will severely slow it down. The objective of this project was to have a fast, simple and clean alternative to a bulky IDE. Adding features that make it slow would be counterproductive. That being said, features that do not compromise the smooth experience of ``vim-ide`` can always be added.
 
 Contributions
 =============
@@ -41,4 +41,6 @@ Feel free to open a pull request, raise an issue or a feature request.
 
 Credits
 =======
- `amix <https://github.com/amix/vimrc>`_ for plugin ideas and `rraks <https://github.com/rraks/configs>`_ for the vanilla vim configuration
+* `spacevim <https://github.com/SpaceVim/SpaceVim>`_ for install script structure
+* `amix <https://github.com/amix/vimrc>`_ for plugin ideas
+* `rraks <https://github.com/rraks/configs>`_ for the vanilla vim configuration

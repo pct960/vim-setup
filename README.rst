@@ -18,15 +18,14 @@ Installation
 
 Features
 ========
-Apart from the features the vanilla vim configuration provides (line numbers, relative line numbers, smart indent etc.), 
-the config has been extended to add a few more features.
+Apart from the features the vanilla vim configuration provides (line numbers, relative line numbers, auto indent etc.), the config has been extended to do a few more things.
 
 #. Nerdtree is automatically loaded when vim is opened
 #. Opening a file places the focus on the file instead of on the nerdtree pane
 #. Closing a file closes both the file and the nerdtree pane (provided no other tabs are open)
 #. To open a file in a new tab, press ``t`` and to open it in split mode press ``s`` (This is a nerdtree feature, but do read further)
 #. Now, to easily switch between tabs use ``Ctrl ←`` and ``Ctrl →`` (Mission control shortcuts will need to be disabled for this work on macOS)
-#. Terminal can be opened from inside ``vim`` using ``,<space>``. This brings up ``fish``, if present, otherwise, brings up ``bash``. Terminal can be closed by simply pressing ``Esc``
+#. A terminal can be opened from inside ``vim`` using ``,<space>``. This brings up ``fish``, if present, otherwise, brings up ``bash``. It can be closed by simply pressing ``Esc``
 
 Screenshots
 ===========
@@ -44,6 +43,6 @@ Feel free to open a pull request, raise an issue or a feature request.
 
 Credits
 =======
-* `spacevim <https://github.com/SpaceVim/SpaceVim>`_ for install script structure
+* `spacevim <https://github.com/SpaceVim/SpaceVim>`_ for the install script structure
 * `amix <https://github.com/amix/vimrc>`_ for plugin ideas
 * `rraks <https://github.com/rraks/configs>`_ for the vanilla vim configuration

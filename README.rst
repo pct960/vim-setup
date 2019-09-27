@@ -4,7 +4,7 @@ Freedom from slow and buggy IDEs
 |license|
 
 .. |license| image:: https://img.shields.io/badge/license-ISC-blue.svg
-    :target: https://github.com/pct960/vim_config/blob/master/LICENSE
+    :target: https://github.com/pct960/vim-setup/blob/master/LICENSE
 
 At some point or the other, we have all sworn at our IDEs for being painfully slow, buggy or both. Here's ``vim`` to the rescue. This is a simple and non-intrusive vim config that can replace your IDE to some extent. It is simple because there are not too many bells and whistles. It is non-intrusive because it does not assume any conveniences on your behalf (i.e not a lot of customisations and re-mappings)
 
@@ -23,9 +23,10 @@ Apart from the features the vanilla vim configuration provides (line numbers, re
 #. Nerdtree is automatically loaded when vim is opened
 #. Opening a file places the focus on the file instead of on the nerdtree pane
 #. Closing a file closes both the file and the nerdtree pane (provided no other tabs are open)
-#. To open a file in a new tab, press ``t`` and to open it in split mode press ``s`` (This is a nerdtree feature, but do read further)
-#. Now, to easily switch between tabs use ``Ctrl ←`` and ``Ctrl →`` (Mission control shortcuts will need to be disabled for this work on macOS)
-#. A terminal can be opened from inside ``vim`` using ``,<space>``. This brings up ``fish``, if present, otherwise, brings up ``bash``. It can be closed by simply pressing ``Esc``
+#. To open a file in a new tab, press ``t``, and to open it in split mode press ``s`` (This is a ``vim`` feature I know, but do read further)
+#. Now, to easily switch between tabs use ``Ctrl ←`` and ``Ctrl →``.(Mission control shortcuts will need to be disabled for this work on macOS) The NERDTree pane will be available on all tabs, thanks to NERDTreeTabs.
+#. To navigate directly to a spcific tab use ``,<tab number>``
+#. A terminal can be opened from inside ``vim`` using ``,<space>``. This brings up ``fish``, if present, otherwise, brings up ``bash``. It can be closed by simply pressing ``Esc`` twice. 
 
 Screenshots
 ===========

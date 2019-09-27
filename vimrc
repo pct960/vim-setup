@@ -1,3 +1,6 @@
+"" Map leader to ,
+let mapleader = ","
+
 "" Simple stuff
 set number
 set linebreak
@@ -74,13 +77,13 @@ let g:lightline = {'colorscheme': 'wombat'}
 
 "" Press ,<space> to bring up the terminal
 try
-    noremap <silent> ,<space> :terminal fish<CR>
+    noremap <silent> <leader><space> :terminal fish<CR>
 catch
-    noremap <silent> ,<space> :terminal bash<CR>
+    noremap <silent> <leader><space> :terminal bash<CR>
 endtry
 
-"" Press Esc to exit and close the terminal
-tnoremap <ESC> <C-w>:q!<CR>
+"" Press Esc twice to exit and close the terminal
+tnoremap <ESC><ESC> <C-w>:q!<CR>
 
 "" Jump to the previous position when re-opening a file
 augroup previous_position 
@@ -91,3 +94,15 @@ augroup previous_position
     \| exe "normal! g'\"" | endif
 
 augroup END
+
+" Switch to tab by tab number
+noremap <leader>1 1gt
+noremap <leader>2 2gt
+noremap <leader>3 3gt
+noremap <leader>4 4gt
+noremap <leader>5 5gt
+noremap <leader>6 6gt
+noremap <leader>7 7gt
+noremap <leader>8 8gt
+noremap <leader>9 9gt
+noremap <leader>0 :tablast<cr>

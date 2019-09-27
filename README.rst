@@ -25,7 +25,7 @@ Apart from the features the vanilla vim configuration provides (line numbers, re
 #. Closing a file closes both the file and the nerdtree pane (provided no other tabs are open)
 #. To open a file in a new tab, press ``t``, and to open it in split mode press ``s`` (This is a ``vim`` feature I know, but do read further)
 #. Now, to easily switch between tabs use ``Ctrl ←`` and ``Ctrl →``.(Mission control shortcuts will need to be disabled for this work on macOS) The NERDTree pane will be available on all tabs, thanks to NERDTreeTabs.
-#. To navigate directly to a spcific tab use ``,<tab number>``
+#. To navigate directly to a specific tab use ``,<tab number>``
 #. A terminal can be opened from inside ``vim`` using ``,<space>``. This brings up ``fish``, if present, otherwise, brings up ``bash``. It can be closed by simply pressing ``Esc`` twice. 
 
 Screenshots

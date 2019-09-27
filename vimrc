@@ -62,7 +62,6 @@ augroup nerdtree
 
 augroup END
 
-
 "" Run NERDTreeTabs on vim startup
 let g:nerdtree_tabs_open_on_console_startup = 1
 
@@ -71,10 +70,8 @@ noremap <C-Left>   :tabprevious<CR>
 noremap <C-Right>  :tabnext<CR>
 
 "" Use the 'wombat' colour scheme for in the lightline plugin
-let g:lightline = {
-      \ 'colorscheme': 'wombat',
-      \ }
-"
+let g:lightline = {'colorscheme': 'wombat'}
+
 "" Press ,<space> to bring up the terminal
 try
     noremap <silent> ,<space> :terminal fish<CR>
@@ -85,8 +82,12 @@ endtry
 "" Press Esc to exit and close the terminal
 tnoremap <ESC> <C-w>:q!<CR>
 
-"" Jump to last position when re-opening a file
-if has("autocmd")
-  au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
+"" Jump to the previous position when re-opening a file
+augroup previous_position 
+
+    autocmd!
+
+    autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
     \| exe "normal! g'\"" | endif
-endif
+
+augroup END

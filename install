@@ -175,7 +175,7 @@ copy_vimrc()
 
 finished()
 {
-	success "Vim-IDE has been successfully installed"
+	success "Setup complete"
 }
 
 main()

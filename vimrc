@@ -69,8 +69,8 @@ augroup END
 let g:nerdtree_tabs_open_on_console_startup = 1
 
 "" Map Ctrl + left arrow and Ctrl + right arrow to switch tabs
-noremap <C-Left>   :tabprevious<CR>
-noremap <C-Right>  :tabnext<CR>
+noremap <silent> <C-Left> :tabprevious<CR>
+noremap <silent> <C-Right> :tabnext<CR>
 
 "" Use the 'wombat' colour scheme for in the lightline plugin
 let g:lightline = {'colorscheme': 'wombat'}

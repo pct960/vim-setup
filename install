@@ -154,17 +154,17 @@ install_plugins()
 
 install_colourscheme()
 {
-	info "Installing the solarized colour scheme"
+	info "Installing the gruvbox colour scheme"
 
-	if [ ! -f ~/.vim/colors/solarized8_flat.vim ]
+	if [ ! -f ~/.vim/colors/gruvbox.vim ]
 	then
 		wget -q --show-progress	\
-		"https://raw.githubusercontent.com/lifepillar/vim-solarized8/master/colors/solarized8_flat.vim"    \
+		"https://raw.githubusercontent.com/morhetz/gruvbox/master/colors/gruvbox.vim"    \
 		-P ~/.vim/colors/
 
-		success "Successfully installed the solarized colour scheme"
+		success "Successfully installed the gruvbox colour scheme"
 	else
-		success "Solarized colour scheme already present"
+		success "Gruvbox colour scheme already present"
 	fi
 }
 

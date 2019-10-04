@@ -24,7 +24,7 @@ set cursorline
 "" Set colour scheme to solarized8_flat
 set background=dark
 set encoding=utf8
-colorscheme solarized8_flat
+colorscheme gruvbox
 
 "" Indentation and syntax highlighting
 filetype plugin indent on
